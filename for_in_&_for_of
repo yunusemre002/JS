@@ -1,0 +1,21 @@
+const array1 = ['a', 'b', 'c'];
+
+for (const element in array1) {
+  console.log(element);
+}
+
+// expected output: "0"
+// expected output: "1"
+// expected output: "2"
+
+
+
+const array1 = ['a', 'b', 'c'];
+
+for (const element of array1) {
+  console.log(element);
+}
+
+// expected output: "a"
+// expected output: "b"
+// expected output: "c"
